@@ -1,10 +1,12 @@
 package org.prog.session1;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
 
+        System.out.println("Hello World!");
         int i = 10;
         System.out.println(i);
         i = i - 3;
@@ -14,6 +16,21 @@ public class Main {
         System.out.println(5 * 5);
         System.out.println(21 / 3);
         System.out.println(" 5 *sdkfjs;d 5   ");
+
+        double r = 12.3;
+
+        if (r == 12.4)
+        {
+            System.out.println("Hi!");
+        }
+        else
+        {
+            System.out.println("Bye!");
+        }
+
+
+
+
 
     }
 }
