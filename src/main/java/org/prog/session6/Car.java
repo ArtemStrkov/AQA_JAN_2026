@@ -1,17 +1,19 @@
 package org.prog.session6;
 
+//TODO: add car plate number
+//TODO: add method which will return owner name, model and plate number
+
 public class Car {
-    public CarModel carModel;
-    public CarOwner carOwner;
-    public CarTechSummary techSummary;
-    public CarDimensions dimensions;
-    public String milege;
 
-    public void goTo(String destination) {
-        System.out.println("Going to " + destination);
+    public String carModel;
+    public String carOwner;
+    //public String milege;
+    public String plateNum;
+
+    public String InformationCar() {
+
+        return "Car owner: " + carOwner + " | model: " + carModel + " | plate: " + plateNum;
+
     }
 
-    public void smth() {
-        goTo("Home");
-    }
 }

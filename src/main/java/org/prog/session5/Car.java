@@ -6,6 +6,7 @@ public class Car {
     public String destination;
     public int speed;
 
+
     public void goTo(String owner, String destination, int speed)
     {
 
